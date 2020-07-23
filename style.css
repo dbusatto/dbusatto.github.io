@@ -1,0 +1,359 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/****************/
+/*   GENERAL    */
+/****************/
+
+body {
+	/*margin: 20px 0px 0px 0px;*/
+	padding: 0;
+	background: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: "Times New Roman", Times, serif;*/
+    font-size: 13px;
+	color: #3C3D3F;
+	width: 900px;
+	margin: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 5px 0px 5px 0px;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 150%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: underline;
+	color: #1f4a91;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+    /*margin-top: 90px;*/
+    padding: 90px 0px 0px 0px;
+    overflow: hidden;
+    height: 55px;
+    margin: 0px auto 20px auto;
+    background: url(logo-ulb.png) no-repeat right bottom;
+    background-size: 350px;
+    background-position-y: 50px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+#logo h1 {
+	font-size: 2.8em;
+}
+
+#logo h1 span {
+	color: #1f4a91;
+}
+
+#logo p {
+	margin: -5px 0px 0px 0px;
+	padding: 0px 0 0 px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #45302C;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding: 40px 0px 0px 0px;
+	border-top: 1px solid #BBBBBB;
+}
+
+#page-bgtop {
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 850px;
+	padding: 0px 0px 0px 0px;
+	background: #FFFFFF;
+}
+
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	/*border-top: 1px solid #BBBBBB;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0px 0px 30px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #45302C;
+}
+
+#footer a {
+	color: #6B4A45;
+}
+
+
+
+/****************/
+/*   PUBLIS     */
+/****************/
+
+
+#contents h3.category {
+    border-bottom-style: none;
+    clear: both; 
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: #006699; 
+    color:       white; 
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: .1em 0.3em;
+}
+
+#contents h3:before{
+    background-color: transparent;
+}
+
+td.labels {
+    vertical-align: baseline;
+    text-align: right;
+}
+dt.labels {
+    float: left;
+    margin-right: .2em;
+    margin: 0px;
+    text-align: right;
+}
+.label-entry:before { content: "["; /*color: #006699;*/ }
+.label-entry:after  { content: "]"; /*color: #006699;*/ }
+
+
+/* EntrÃ©e */
+
+td.entree {
+    vertical-align: baseline;
+    text-align: justify;
+}
+dd.entree {
+    margin-left: 7em;
+    margin-bottom: .5em;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+li.entree {
+    margin-left: .5em;
+    margin-bottom: .5em;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+
+.highlight { 
+    background-color: #ecf1f6;
+    border:           solid 1px #006699;
+}
+
+/* Auteurs */
+
+.authors {
+    text-decoration:none;
+    color: #116622;
+}
+
+.editor {
+}
+
+/* Titres */
+
+.titre a {
+    text-decoration:none;
+    color: #0510dd;
+}
+.titre span {
+}
+
+.titre_it a {
+    text-decoration:none;
+    color: #0510dd;
+    font-style: italic;
+}
+.titre_it span {
+    font-style: italic;
+}
+
+
+span.booktitle {
+}
+
+span.journal {
+    font-style: italic;
+}
+
+/* Date */
+
+span.year {
+}
+
+/* Publisher */
+
+span.publisher {
+}
+
+/* Lien */
+
+a.link {
+    color: #116622;
+    text-decoration:none;  
+}
+a.DOI_link {
+    color: #772211;
+    text-decoration:none;
+    font-size: xx-small;
+    display: block;
+}
+a.detail_link {
+    color: #116622;
+    text-decoration:none;  
+    cursor: pointer;
+}
+
+/* Abstract */
+
+.abstract {
+    background-color: #DDEEFF; 
+    margin-top: 5mm;
+    margin-bottom: 5mm; 
+    padding:3mm;
+    max-width: 500px;
+}
+
+.abstract_name {
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10;
+    vertical-align: baseline;
+}
+.abstract_content {
+    margin-top:2mm;
+    text-align: justify;
+    vertical-align: baseline;
+    background: #DDEEFF;
+}
+
+
+/* Bibtex */
+
+.bibtex
+{
+    padding: 0;
+    margin: 15 15% 15 15%;
+    max-width: 800px;
+    min-width:35em;
+}
+
+.bibtex_name
+{
+    width: 5cm;
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+
+.bibtex_content {
+    margin: 0 0 0 0;
+    font-family: 'Lucida Console', monospace;
+    font-size: small;
+}
+
+.bibtex_type {
+    color: #BB2222; 
+    display: inline;
+}
+
+.bibtex_tag {
+    color: #117711;
+    display: inline;
+    margin-left: 2em;
+}
+
+/****************/
+/*    TALKS     */
+/****************/
+
+
+tr.talk {
+    vertical-align: top;
+}
+
+td.when {
+    width: 100px;
+}
+
+td.what {
+    width: 400px;   
+}
+
+td.where {
+    width: 300px;   
+}
